@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nur Hazlin - Academic Profile</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+ html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color:#212529;
+      line-height: 1.6;
+    }
+
+    .split-section {
+      background-color:#fff9fb;
+      padding: 60px 20px;
+    }
+
+    .left-image img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .left-image img:hover {
+      transform: scale(1.03);
+    }
+
+    .university-badge {
+      background-color: white;
+      border-radius: 20px;
+      padding: 8px 15px;
+      display: inline-block;
+      margin-top: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      font-weight: 500;
+    }
+    .left-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+    .profile-content h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+   .profile-content .quote {
+  position: relative;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  padding: 0 1.5rem;
+  display: inline-block;
+}
+
+.profile-content .quote::before {
+  content: '“'; 
+  font-size: 3rem;
+  position: absolute;
+  left: -20px;
+  top: -15px;
+  color: rgba(214, 51, 132, 0.2);
+}
+
+.profile-content .quote::after {
+  content: '”';
+  font-size: 3rem;
+  position: absolute;
+  right: -20px;
+  bottom: -15px;
+  color: rgba(214, 51, 132, 0.2);
+}
+
+
+    .highlight {
+      color:#d63384;
+      font-weight: 600;
+    }
+
+    .profile-details {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .detail-item {
+      margin-bottom: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .detail-label {
+      font-weight: 600;
+      min-width: 160px;
+      color:#6c757d;;
+    }
+
+    .btn-primary {
+      background-color:#d63384;;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      padding: 12px 28px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin-top: 1.5rem;
+    }
+
+    .btn-primary:hover {
+      background-color: #b52a6d;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(214, 51, 132, 0.3);
+    }
+
+    .social-icon {
+       color:#b52a6d;
+      font-size: 1.5rem;
+      margin-right: 15px;
+      transition: transform 0.3s ease;
+    }
+    .social-icon:hover {
+      transform: scale(1.2);
+      color: #ff8fab;
+    }
+    footer {
+      background-color: #fff;
+    }
+
+    footer h5 {
+      color: #FF1493;
+    }
+
+    footer a {
+      color: #FF1493;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .left-image {
+        margin-bottom: 2.5rem;
+        text-align: center;
+      }
+
+      .detail-item {
+        flex-direction: column;
+      }
+
+      .detail-label {
+        margin-bottom: 0.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- Profile Section -->
+  <div class="container-fluid split-section">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+
+        <!-- Left Column -->
+        <div class="col-lg-4 text-center left-image">
+          <img src="img/profile3.jpg" alt="Profile Picture" class="mb-3">
+          <div class="university-badge">
+            <i class="fa-solid fa-location-dot"></i> UiTM Arau, Perlis
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-7 offset-lg-1 profile-content">
+        <p class="quote">Wellness begins with small, consistent steps</p></p>
+
+
+          <h1>Hello, I'm <span class="highlight">Elyana Ezlyn</span></h1>
+
+          <div class="profile-details">
+            <div class="detail-item"><span class="detail-label">Student ID:</span><span>2024457690</span></div>
+            <div class="detail-item"><span class="detail-label">Hometown:</span><span>Kuantan, Pahang</span></div>
+            <div class="detail-item"><span class="detail-label">Program:</span><span>Bachelor of Health & Fitness</span></div>
+            <div class="detail-item"><span class="detail-label">Current Semester:</span><span>Semester 5 / Year 3</span></div>
+            <div class="detail-item"><span class="detail-label">Academic Email:</span><span>elyanaezlyn@gmail.com</span></div>
+            <div class="detail-item"><span class="detail-label">MUET Band:</span><span>3.5</span></div>
+            <div class="detail-item"><span class="detail-label">Technical Skills:</span><span>Exercise Testing & Prescription,Nutrition Planning Basics</span></div>
+            <div class="detail-item"><span class="detail-label">Soft Skills:</span><span>Leadership in Group Workouts, Team Collaboration,Discipline </span></div>
+            <div class="detail-item"><span class="detail-label">Languages:</span><span>Malay (Native), English (Fluent)</span></div>
+            <div class="detail-item"><span class="detail-label">Research Interests:</span><span>Hiking, Creating Fitness Content & Wellness Education</span></div>
+          </div>
+
+          <div class="mt-4">
+            <a href="https://www.instagram.com/" class="social-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/" class="social-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 py-4 border-top">
+    <div class="container">
+      <div class="row text-center text-md-start">
+
+        <!-- Contact Info -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <h5 class="footer-heading">EPROFILE</h5>
+          <p>
+            Universiti Teknologi MARA (UiTM)<br>
+            40150 Shah Alam<br>
+            Selangor Darul Ehsan<br>
+            Malaysia<br><br>
+            <strong>Phone:</strong> 03 - 5544 4909<br>
+            <strong>Email:</strong> iceps@uitm.edu.my
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-6 col-lg-4 mb-4 d-flex flex-column justify-content-center align-items-md-start align-items-center">
+          <a href="https://www.instagram.com/uitm.official/" class="mb-2 text-decoration-none" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+          <a href="https://x.com/uitmofficial" class="mb-2 text-decoration-none">
+            <i class="fa-brands fa-x-twitter"></i> Twitter-X
+          </a>
+           <a href="https://www.youtube.com/channel/UCjIWjQSyTuVDD-GHPYcg7Pw" class="mb-2 text-decoration-none">
+            <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-arrow-up-circle"></i> Back to Top
+          </a>
+        </div>
+
+      <!-- Copyright -->
+      <div class="text-center mt-3">
+        <p class="mb-0" style="color:#d63384;">&copy; 2025 COPYRIGHT UNIVERSITI TEKNOLOGI MARA.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

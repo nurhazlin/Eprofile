@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UiTM Student Eprofile</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff0f6;
+    }
+
+    .heading {
+        background-color: #8E003B;
+        color: white;
+        padding: 1.5rem 0;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+ .heading span {
+        position: relative;
+        padding: 0 10px;
+      }
+      
+      .heading span:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: white;
+      }
+      
+    .card-stat .card {
+      background-color: black;
+      color: #FF1493;
+    }
+
+    .faculty-card .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .faculty-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body p {
+      margin-bottom: 4px;
+    }
+
+    .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+    footer {
+      background-color: #fff;
+    }
+
+    footer h5 {
+      color: #FF1493;
+    }
+
+    footer a {
+      color: #FF1493;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <h1 class="heading">STUDENT EPROFILE PORTAL</h1>
+
+ <!-- Statistics Section -->
+<div class="container mb-5">
+  <div class="row text-center card-stat">
+
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-3">
+      <div class="card text-white border-0"
+           style="background: linear-gradient(135deg, #8E003B 0%, #FF1493 100%);">
+        <div class="card-body">
+          <h5 class="card-title mb-1">
+            <i class="fa-solid fa-users me-2"></i><strong>ACTIVE STUDENTS</strong>
+          </h5>
+          <p class="card-text fs-3 mb-0">176,483</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-3">
+      <div class="card text-white border-0"
+           style="background: linear-gradient(135deg, #8E003B 0%, #FF1493 100%);">
+        <div class="card-body">
+          <h5 class="card-title mb-1">
+            <i class="fas fa-book me-2"></i><strong>FACULTIES</strong>
+          </h5>
+          <p class="card-text fs-3 mb-0">27</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-3">
+      <div class="card text-white border-0"
+           style="background: linear-gradient(135deg, #8E003B 0%, #FF1493 100%);">
+        <div class="card-body">
+          <h5 class="card-title mb-1">
+            <i class="fa-solid fa-building me-2"></i><strong>PROGRAMMES</strong>
+          </h5>
+          <p class="card-text fs-3 mb-0">526</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Faculty Profiles Section -->
+<div class="container faculty-card">
+  <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile1.html" target="_blank">
+          <img src="img/faculty1.jpg" class="card-img-top" alt="Profile 1">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Information Science</strong></p>
+          <p style="color: #6C757D;">CDIM262 - Bachelor of Information Science (Hons.) Information Systems Management</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile2.html" target="_blank">
+          <img src="img/faculty2.jpg" class="card-img-top" alt="Profile 2">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Dentistry</strong></p>
+          <p style="color: #6C757D;">DS240 - Bachelor of Dental Surgery</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile3.html" target="_blank">
+          <img src="img/faculty3.jpg" class="card-img-top" alt="Profile 3">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Sport Science & Recreation</strong></p>
+          <p style="color: #6C757D;">SR245 - Bachelor of Health & Fitness (Honours)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile4.html" target="_blank">
+          <img src="img/faculty4.jpg" class="card-img-top" alt="Profile 4">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Administrative Science & Policy Studies</strong></p>
+          <p style="color: #6C757D;">AM238 - Bachelor in Administrative Science (Honours)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile5.html" target="_blank">
+          <img src="img/faculty5.jpg" class="card-img-top" alt="Profile 5">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Business & Management</strong></p>
+          <p style="color: #6C757D;">BA280 - Bachelor in Business Economic (Honours)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <a href="profile6.html" target="_blank">
+          <img src="img/faculty6.jpg" class="card-img-top" alt="Profile 6">
+        </a>
+        <div class="card-body text-center text-md-start" style="color: #8E003B;">
+          <p><strong>Faculty of Communication & Media Studies</strong></p>
+          <p style="color: #6C757D;">MC241 - Bachelor of Mass Communication (Hons.) Journalism</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="mt-5 py-4 border-top">
+    <div class="container">
+      <div class="row text-center text-md-start">
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <h5 class="text-uppercase fw-bold">EPROFILE</h5>
+          <p>
+            Universiti Teknologi MARA (UiTM)<br>
+            40150 Shah Alam<br>
+            Selangor Darul Ehsan<br>
+            Malaysia<br><br>
+            <strong>Phone:</strong> 03 - 5544 4909<br>
+            <strong>Email:</strong> iceps@uitm.edu.my
+          </p>
+        </div>
+
+       <div class="col-md-6 col-lg-4 mb-4 d-flex flex-column justify-content-center align-items-md-start align-items-center">
+          <a href="https://www.instagram.com/uitm.official/" class="mb-2 text-decoration-none" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+          <a href="https://x.com/uitmofficial" class="mb-2 text-decoration-none">
+            <i class="fa-brands fa-x-twitter"></i> Twitter-X
+          </a>
+           <a href="https://www.youtube.com/channel/UCjIWjQSyTuVDD-GHPYcg7Pw" class="mb-2 text-decoration-none">
+            <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-arrow-up-circle"></i> Back to Top
+          </a>
+        </div>
+
+        <div class="col-12 mt-3 text-center">
+          <p class="mb-0" style="color: #FF1493;">&copy; 2025 COPYRIGHT UNIVERSITI TEKNOLOGI MARA.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
